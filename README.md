@@ -17,6 +17,20 @@
 npm install github:pikum99/academic-paper-viewer
 ```
 
+### 必要な依存関係
+
+このパッケージには以下のpeer dependenciesが必要です：
+
+```bash
+npm install react react-dom react-markdown remark-math rehype-katex remark-gfm katex
+```
+
+または、まとめてインストール：
+
+```bash
+npm install github:pikum99/academic-paper-viewer react-markdown remark-math rehype-katex remark-gfm katex
+```
+
 ## 使い方
 
 ```jsx

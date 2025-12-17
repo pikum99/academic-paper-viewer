@@ -11,7 +11,15 @@ export default defineConfig({
       fileName: (format) => `academic-paper-viewer.${format === 'es' ? 'js' : 'umd.cjs'}`
     },
     rollupOptions: {
-      external: ['react', 'react-dom'],
+      external: [
+        'react',
+        'react-dom',
+        'react-markdown',
+        'remark-math',
+        'rehype-katex',
+        'remark-gfm',
+        'katex'
+      ],
       output: {
         globals: {
           react: 'React',
