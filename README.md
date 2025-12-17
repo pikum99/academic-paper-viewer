@@ -14,7 +14,7 @@
 ### GitHubから直接インストール
 
 ```bash
-npm install github:あなたのユーザー名/academic-paper-viewer
+npm install github:pikum99/academic-paper-viewer
 ```
 
 ## 使い方
